@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #3a6168, #89253e);
+}
+
+.login {
+  color: black;
+  font-family: Arial;
+  background: rgb(255, 255, 255);
+  /* background: url(./1.jpg);
+  background-size: cover; */
+  text-align: center;
+  border: none;
+  height: 350px;
+  width: 700px;
+  padding-top: 50px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 7px 7px;
+}
+
+img {
+  float: left;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+/* login form styles */
+
+form {
+  float: right;
+  margin-right: 70px;
+  margin-top: 30px;
+}
+
+/* styles for the username and password areas */
+input {
+  background-color: rgba(223, 216, 216, 0.485);
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+  width: 200px;
+  padding: 5px;
+}
+
+input:focus {
+  border: none;
+}
+
+input:hover{
+  background-color: rgba(18, 18, 209, 0.296);
+}
+
+.email {
+  margin-bottom: 5px;
+  margin-top: ;
+}
+.pass {
+  margin-bottom: 10px;
+}
+
+/* login button styles */
+
+.btn {
+  height: 20px;
+  width: 210px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background: rgb(15, 23, 173);
+  padding: 15px;
+
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.log {
+  text-align: center;
+  margin: -8px;
+}
+
+.btn:hover {
+  background-color: #43d400;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* forgot username and password */
+
+.forgot {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: gray;
+}
+
+.forgot a:hover {
+  color: rgb(15, 23, 173);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* create new account */
+
+.new {
+  font-style: arial;
+  font-weight: bold;
+  font-size: small;
+  color: gray;
+}
+
+.new a {
+  text-decoration: none;
+  color: gray;
+}
+
+.new a:hover {
+  color: rgb(15, 23, 173);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+/* making it responsive */
+/* for mobile */
+@media screen and (max-width: 480px){
+
+img{
+  display: none;
+}
+.main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.login{
+  min-height: 50vh;
+}
+
+.new{
+  min-height: 50vh;
+}
+}
+
+/* ipads and tablets */
+@media screen and (max-width: 768px){
+
+.main{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.login{
+  min-height: 50vh;
+  width: 600px;
+}
+
+.new{
+  min-height: 50vh;
+}
+}
+
+/* for small screens, laptops */
+
+
+@media screen and (max-width: 1024px){
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.login{
+  min-height: 50vh;
+}
+
+.new{
+  min-height: 50vh;
+}
+}
+
+/* for extra large tv screens etc */
+
+@media screen and (min-width: 1201px){
+
+.main{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.login{
+  min-height: 50vh;
+}
+
+.new{
+  min-height: 50vh;
+}
+}
